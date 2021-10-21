@@ -1,0 +1,15 @@
+#!/bin/bash
+
+./dineroIV -l1-usize 4k -l1-ubsize 32 -informat d < cc1.din > 4k.out
+./dineroIV -l1-usize 8k -l1-ubsize 32 -informat d < cc1.din > 8k.out
+./dineroIV -l1-usize 16k -l1-ubsize 32 -informat d < cc1.din > 16k.out
+./dineroIV -l1-usize 32k -l1-ubsize 32 -informat d < cc1.din > 32k.out
+
+
+./dineroIV -l1-usize 4k -l1-ubsize 32 -l1-urepl m -informat d < cc1.din > 4km.out
+./dineroIV -l1-usize 8k -l1-ubsize 32 -l1-urepl m -informat d < cc1.din > 8km.out
+./dineroIV -l1-usize 16k -l1-ubsize 32 -l1-urepl m -informat d < cc1.din > 16km.out
+./dineroIV -l1-usize 32k -l1-ubsize 32 -l1-urepl m -informat d < cc1.din > 32km.out
+
+
+echo Simulation Done!

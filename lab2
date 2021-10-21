@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Problem 1A
+
+./dineroIV -l1-usize 4k -l1-ubsize 32 -l1-uassoc 1 -l1-urepl l -informat d < cc1.din > 1a_4.out
+./dineroIV -l1-usize 8k -l1-ubsize 32 -l1-uassoc 1 -l1-urepl l -informat d < cc1.din > 1a_8.out
+./dineroIV -l1-usize 16k -l1-ubsize 32 -l1-uassoc 1 -l1-urepl l -informat d < cc1.din > 1a_16.out
+./dineroIV -l1-usize 32k -l1-ubsize 32 -l1-uassoc 1 -l1-urepl l -informat d < cc1.din > 1a_32.out
+
+# Problem 1B
+
+./dineroIV -l1-usize 4k -l1-ubsize 16 -l1-uassoc 1 -l1-urepl l -informat d < cc1.din > 1b_16.out
+./dineroIV -l1-usize 4k -l1-ubsize 32 -l1-uassoc 1 -l1-urepl l -informat d < cc1.din > 1b_32.out
+./dineroIV -l1-usize 4k -l1-ubsize 64 -l1-uassoc 1 -l1-urepl l -informat d < cc1.din > 1b_64.out
+./dineroIV -l1-usize 4k -l1-ubsize 128 -l1-uassoc 1 -l1-urepl l -informat d < cc1.din > 1b_128.out
+./dineroIV -l1-usize 4k -l1-ubsize 256 -l1-uassoc 1 -l1-urepl l -informat d < cc1.din > 1b_256.out
+
+# Problem 1C
+
+./dineroIV -l1-usize 4k -l1-ubsize 32 -l1-uassoc 1 -l1-urepl l -informat d < cc1.din > 1c_1.out
+./dineroIV -l1-usize 4k -l1-ubsize 32 -l1-uassoc 2 -l1-urepl l -informat d < cc1.din > 1c_2.out
+./dineroIV -l1-usize 4k -l1-ubsize 32 -l1-uassoc 4 -l1-urepl l -informat d < cc1.din > 1c_4.out
+./dineroIV -l1-usize 4k -l1-ubsize 32 -l1-uassoc 8 -l1-urepl l -informat d < cc1.din > 1c_8.out
+
+# Problem 1D
+
+./dineroIV -l1-usize 4k -l1-ubsize 32 -l1-uassoc 2 -l1-urepl l -informat d < cc1.din > 1d_l.out
+./dineroIV -l1-usize 4k -l1-ubsize 32 -l1-uassoc 2 -l1-urepl f -informat d < cc1.din > 1d_f.out
+./dineroIV -l1-usize 4k -l1-ubsize 32 -l1-uassoc 2 -l1-urepl r -informat d < cc1.din > 1d_r.out

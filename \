@@ -1,0 +1,9 @@
+#!/bin/bash
+
+./dineroIV -l1-usize 2 -l1-ubsize 1 -l1-uassoc 2 -informat d < test.din > lru.out
+./dineroIV -l1-usize 2 -l1-ubsize 1 -l1-uassoc 2 -informat d < test.din > mru.out
+
+
+
+
+echo Simulation Done!
