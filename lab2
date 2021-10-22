@@ -21,6 +21,7 @@
 ./dineroIV -l1-usize 4k -l1-ubsize 32 -l1-uassoc 2 -l1-urepl l -informat d < cc1.din > 1c_2.out
 ./dineroIV -l1-usize 4k -l1-ubsize 32 -l1-uassoc 4 -l1-urepl l -informat d < cc1.din > 1c_4.out
 ./dineroIV -l1-usize 4k -l1-ubsize 32 -l1-uassoc 8 -l1-urepl l -informat d < cc1.din > 1c_8.out
+./dineroIV -l1-usize 4k -l1-ubsize 32 -l1-uassoc 128 -l1-urepl l -informat d < cc1.din > 1c_f.out
 
 # Problem 1D
 
